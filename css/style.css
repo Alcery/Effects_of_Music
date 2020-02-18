@@ -577,18 +577,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Facts Section
 --------------------------------*/
 
-#facts {
+#info {
   background: #f7f7f7;
   padding: 80px 0 60px 0;
 }
 
-#facts .counters span {
+#info .counters span {
   font-size: 48px;
   display: block;
   color: #2dc997;
 }
 
-#facts .counters p {
+#info .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Poppins", sans-serif;
