@@ -16,13 +16,13 @@ body {
 }
 
 a {
-  color: #2dc997;
+  color: #11d8c7;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #2dca98;
+  color: rgb(12, 141, 228);
   outline: none;
   text-decoration: none;
 }
@@ -79,7 +79,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2dc997;
+  background: #1321e6;
   color: #fff;
 }
 
@@ -309,7 +309,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #2dc997;
+  background-color: #11b4e6;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -347,7 +347,7 @@ h6 {
 }
 
 .nav-menu ul li a:hover {
-  background: #2dc997;
+  background: #1ae7a6;
   color: #fff;
 }
 
