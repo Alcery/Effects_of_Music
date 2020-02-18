@@ -733,7 +733,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-right: 15px;
 }
 
-#portfolio #portfolio-flters {
+/* #portfolio #portfolio-flters {
   padding: 0;
   margin: 0 0 45px 0;
   list-style: none;
@@ -759,7 +759,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio #portfolio-flters li.filter-active {
   background: #2dc997;
   color: #fff;
-}
+} */
 
 #portfolio .portfolio-item {
   position: relative;
