@@ -494,8 +494,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .background {
-  min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  min-height: 450px;
+  /* Photo by Aaron Burden on Unsplash */
+  background: url(../img/aaron-burden-unsplash.jpg) center ;
   margin-bottom: 10px;
 }
 
@@ -597,7 +598,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 
-#services {
+/* #services {
   background: #fff;
   background-size: cover;
   padding: 80px 0 60px 0;
@@ -679,12 +680,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .description {
   font-size: 14px;
   line-height: 24px;
-}
+} */
 
 /* Call To Action Section
 --------------------------------*/
 
-#call-to-action {
+/* #call-to-action {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
@@ -718,7 +719,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #call-to-action .cta-btn:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
-}
+} */
 
 /* Portfolio Section
 --------------------------------*/
@@ -819,7 +820,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #team {
   background: #fff;
-  padding: 80px 0 60px 0;
+  padding: 80px 0 60px 300px;
 }
 
 #team .member {
@@ -864,6 +865,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+#team .section-title {
+  padding-right: 280px;
+}
+
+#team .section-description {
+  padding-right: 280px;
 }
 
 /* Contact Section
