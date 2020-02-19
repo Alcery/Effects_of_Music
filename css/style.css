@@ -62,7 +62,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -124,7 +124,7 @@ h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(69, 79, 87, 0.9);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -145,7 +145,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(44, 44, 44, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -784,7 +784,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item .details {
   height: 50px;
-  background: #2dc997;
+  background: #00991A;
   position: absolute;
   width: 100%;
   height: 50px;
@@ -859,7 +859,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #2dc997;
+  color: #003399;
 }
 
 #team .member .social i {
@@ -982,7 +982,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #51d8ad;
+  background: #40B353;
 }
 
 /*--------------------------------------------------------------
@@ -1078,7 +1078,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* typewriter styles and animation  */
 .hero-container > h1,
 .hero-container > h2{
-    background: linear-gradient(to right, #00991A 40%, #003399 55%);
+    background: linear-gradient(to right, #00991A 45%, #003399 70%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
