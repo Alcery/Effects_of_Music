@@ -128,3 +128,70 @@ jQuery(document).ready(function ($) {
   // custom code
 
 });
+
+
+
+// Nav link color changer
+let navLink = document.getElementsByClassName("nav-link");
+let colorChanger = Math.floor(Math.random() * 16777215).toString(16);
+console.log(colorChanger);
+// This event will activate every time the cursor
+// is moved onto a nav link
+navLink[0].addEventListener("mouseover", event => {
+   console.log(navLink);
+   // highlight the mouseenter target
+   event.target.style.color = `#${colorChanger}`;
+
+   // reset the color after a short delay
+   setTimeout(() => {
+      event.target.style.color = "";
+   }, 700);
+}, false);
+
+// This event will activate every time the cursor
+// is moved over a nav link
+navLink[1].addEventListener("mouseover", event => {
+   // highlight the mouseover target
+   event.target.style.color = `#${colorChanger}`;
+
+   // reset the color after a short delay
+   setTimeout(() => {
+      event.target.style.color = "";
+   }, 700);
+}, false);
+navLink[2].addEventListener("mouseover", event => {
+   // highlight the mouseover target
+   event.target.style.color = `#${colorChanger}`;
+
+   // reset the color after a short delay
+   setTimeout(() => {
+      event.target.style.color = "";
+   }, 700);
+}, false);
+navLink[3].addEventListener("mouseover", event => {
+   // highlight the mouseover target
+   event.target.style.color = `#${colorChanger}`;
+
+   // reset the color after a short delay
+   setTimeout(() => {
+      event.target.style.color = "";
+   }, 700);
+}, false);
+navLink[4].addEventListener("mouseover", event => {
+   // highlight the mouseover target
+   event.target.style.color = `#${colorChanger}`;
+
+   // reset the color after a short delay
+   setTimeout(() => {
+      event.target.style.color = "";
+   }, 700);
+}, false);
+navLink[5].addEventListener("mouseover", event => {
+   // highlight the mouseover target
+   event.target.style.color = `#${colorChanger}`;
+
+   // reset the color after a short delay
+   setTimeout(() => {
+      event.target.style.color = "";
+   }, 700);
+}, false);
