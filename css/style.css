@@ -16,13 +16,13 @@ body {
 }
 
 a {
-  color: #11d8c7;
+  color: #00991A;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: rgb(12, 141, 228);
+  color: #003399;
   outline: none;
   text-decoration: none;
 }
@@ -79,7 +79,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #1321e6;
+  background: #003399;
   color: #fff;
 }
 
@@ -210,8 +210,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #003399;
+  border: 2px solid #003399;
 }
 
 /*--------------------------------------------------------------
@@ -472,7 +472,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #003399;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -585,7 +585,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #info .counters span {
   font-size: 48px;
   display: block;
-  color: #2dc997;
+  color: #00991A;
 }
 
 #info .counters p {
@@ -894,7 +894,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #00991A;
   float: left;
 }
 
@@ -928,7 +928,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
+  background: #00991A;
   color: #fff;
 }
 
@@ -974,7 +974,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #2dc997;
+  background: #00991A;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1071,4 +1071,46 @@ body.mobile-nav-active #mobile-nav-toggle {
   #about .about-container .title {
     padding-top: 15px;
   }
+}
+
+
+
+/* typewriter styles and animation  */
+.hero-container > h1,
+.hero-container > h2{
+    background: linear-gradient(to right, #00991A 40%, #003399 55%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    border-right: .10em solid transparent;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    font-family: monospace;
+    animation: typing 3.5s steps(40, end),
+        blink-caret .5s step-end 3s;
+}
+
+/* the typing effeect makes sure the content isnt diplayed until the animation is complete */
+@keyframes typing {
+    from {
+        width: 0%
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/*  the blinking effect so it has that type writerfeel to it  */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: black
+    }
 }
