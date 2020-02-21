@@ -1007,6 +1007,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ccc;
 }
 
+
+/* Media Styles 
+--------------------------*/
 @media (min-width: 320px) and (max-width: 500px){
   #call-to-action .cta-btn-container {
     display: -webkit-box;
