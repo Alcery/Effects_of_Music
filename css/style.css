@@ -1150,7 +1150,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* typewriter styles and animation  */
 .hero-container > h1,
 .hero-container > h2{
-    background: linear-gradient(to right, #00991A 45%, #003399 75%);
+    background: linear-gradient(to right, #00991A 45%, #003399 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
