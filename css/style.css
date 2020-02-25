@@ -50,11 +50,19 @@ h6 {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 999;
-  width: 100%;
+  z-index: 1001;
+  width: 51%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/45.svg") no-repeat center center;
+  background: #222222 url("../img/45.svg") no-repeat center center;
+}
+
+#loader-wrapper .loader-section.section-left {
+  left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+  right: 0;
 }
 
 /* Back to top button */
