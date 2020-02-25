@@ -68,7 +68,7 @@ jQuery(document).ready(function ($) {
     $("#mobile-nav, #mobile-nav-toggle").hide();
   }
 
-  // Smoth scroll on page hash links
+  // Smooth scroll on page hash links
   $('a[href*="#"]:not([href="#"])').on('click', function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
@@ -104,20 +104,20 @@ jQuery(document).ready(function ($) {
   });
 
   // Porfolio filter
-  $("#portfolio-flters li").click(function () {
-    $("#portfolio-flters li").removeClass('filter-active');
-    $(this).addClass('filter-active');
+  // $("#portfolio-flters li").click(function () {
+  //   $("#portfolio-flters li").removeClass('filter-active');
+  //   $(this).addClass('filter-active');
 
-    var selectedFilter = $(this).data("filter");
-    $("#portfolio-wrapper").fadeTo(100, 0);
+  //   var selectedFilter = $(this).data("filter");
+  //   $("#portfolio-wrapper").fadeTo(100, 0);
 
-    $(".portfolio-item").fadeOut().css('transform', 'scale(0)');
+  //   $(".portfolio-item").fadeOut().css('transform', 'scale(0)');
 
-    setTimeout(function () {
-      $(selectedFilter).fadeIn(100).css('transform', 'scale(1)');
-      $("#portfolio-wrapper").fadeTo(300, 1);
-    }, 300);
-  });
+  //   setTimeout(function () {
+  //     $(selectedFilter).fadeIn(100).css('transform', 'scale(1)');
+  //     $("#portfolio-wrapper").fadeTo(300, 1);
+  //   }, 300);
+  // });
 
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
