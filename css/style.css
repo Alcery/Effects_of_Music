@@ -993,20 +993,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #40B353;
 }
 
-#mail {
+.contact-links {
   color: #00991A;
   padding: 0;
   margin: 0 0 30px 0;
   font-size: 15px;
 }
 
-#tel {
-    color: #00991A;
-    padding: 0;
-    margin: 0 0 30px 0;
-    font-size: 15px;
-  
+a.contact-links:hover,
+a.contact-links:active,
+a.contact-links:focus {
+  color: #003399;
+  outline: none;
+  text-decoration: none;
 }
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -1154,6 +1155,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #mail {
  font-size: 12px;
 }
+
 @media (min-width: 992px) and (max-width: 1000px){
   #hero {
     background-attachment: fixed;
@@ -1168,7 +1170,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
-
+}
 
 
 
