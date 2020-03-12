@@ -36,7 +36,7 @@ body {
   margin-bottom: 20px;
   z-index: -1;
 }
-
+/* #ff005a */
 .notfound .notfound-404 h1 {
   font-family: 'Montserrat', sans-serif;
   position: absolute;
@@ -52,11 +52,11 @@ body {
   margin-left: -12px;
   color: #030005;
   text-transform: uppercase;
-  text-shadow: -1px -1px 0px #8400ff, 1px 1px 0px #ff005a;
+  text-shadow: -1px -1px 0px #023aac, 1px 1px 0px #00991A;
   letter-spacing: -20px;
 }
 
-
+/* #8400ff */
 .notfound .notfound-404 h2 {
   font-family: 'Montserrat', sans-serif;
   position: absolute;
@@ -76,7 +76,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
   text-transform: uppercase;
-  color: #ff005a;
+  color: #00991A;
   text-decoration: none;
   border: 2px solid;
   background: transparent;
@@ -88,7 +88,7 @@ body {
 }
 
 .notfound a:hover {
-  color: #8400ff;
+  color: #023aac;
 }
 
 @media only screen and (max-width: 767px) {
